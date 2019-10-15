@@ -19,10 +19,18 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
    #nil
-     sum = Hash.new(0)
-     directors_database.each do |num|
-      sum+=directors_database[num]
-   end
-   return sum
+    
+    sum = 0
+    total = {}
+   directors_database.each do |element| 
+ 
+     
+    element.movies.each do |key|
+      binding.pry
+    end
+     
+  end
+   
+   return sum 
 end
    
