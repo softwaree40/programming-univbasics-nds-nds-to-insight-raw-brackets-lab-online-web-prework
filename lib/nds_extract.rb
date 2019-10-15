@@ -22,11 +22,12 @@ def directors_totals(nds)
     
     sum = 0
     total = {}
+    
    directors_database.each do |element| 
  
-     
-    element.movies.each do |key|
-      binding.pry
+    
+    element[:movies].each do |key|
+      binding.pry  
     end
      
   end
