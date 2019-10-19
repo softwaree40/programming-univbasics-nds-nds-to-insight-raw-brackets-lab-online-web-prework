@@ -1,3 +1,4 @@
+
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
@@ -19,19 +20,6 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
    #nil
-    
-    sum = 0
-    total = {}
-    
-   directors_database.each do |element| 
- 
-    
-    element[:movies].each do |key|
-      binding.pry  
-    end
-     
-  end
    
-   return sum 
 end
    
